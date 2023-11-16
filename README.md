@@ -23,6 +23,7 @@ The data input folder (labeled as "spine_data" in the below example) must have t
     │   ├── CT
     │   │   ├── CT.nrrd
     │   │
+    │   ├── DOSE
     │   │   ├── DOSE.nrrd
     │   │
     ├── Patient2
