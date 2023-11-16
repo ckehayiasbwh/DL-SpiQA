@@ -18,7 +18,6 @@ Line 789: aiModelPath points to the location of the TotalSegmentator model.
 The data input folder (labeled as "spine_data" in the below example) must have the following tree structure:
 
 spine_data
-
 |- Patient1
 |  |- CT
 |  |- DOSE
