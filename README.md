@@ -10,10 +10,10 @@ Ubuntu 20.04 or later with a 16GB GPU or better and at least 16GB RAM.
 Usage:
 Users must first edit the directory paths declared in lines 786-789 of the source code for DL-SpiQA.py.
 
-Line 786: dataPullPath points to a data input folder containing deidentified patient data in NRRD format.
-Line 787: dataPushPath points to a destination folder to store results (by default, this is the same as the input folder).
-Line 788: workingRoot specifies an empty folder on the local machine to serve as a working directory for file handling.
-Line 789: aiModelPath points to the location of the TotalSegmentator model.
+Line 786: dataPullPath points to a data input folder containing deidentified patient data in NRRD format.<br />
+Line 787: dataPushPath points to a destination folder to store results (by default, this is the same as the input folder).<br />
+Line 788: workingRoot specifies an empty folder on the local machine to serve as a working directory for file handling.<br />
+Line 789: aiModelPath points to the location of the TotalSegmentator model.<br />
 
 The data input folder (labeled as "spine_data" in the below example) must have the following tree structure:
 
@@ -36,8 +36,10 @@ The DL-SpiQA workflow will process any arbitrary number of spine RT data within 
 The text file for each patient, "RT Plan Data.txt", must include the RT plan label (or any indication of the targeted vertebral levels) as well as the prescription dose.
 Example contents of an arbitrary "RT Plan Data.txt" file are shown below:
 
-RT Plan Label: A1_T6-T8
+
+RT Plan Label: A1_T6-T8<br />
 Prescription Dose (Gy): 35.0
+
 
 The labels "RT Plan Label: " and "Prescription Dose (Gy): " must remain unchanged.
 
