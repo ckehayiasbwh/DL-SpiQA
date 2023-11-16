@@ -18,18 +18,18 @@ Line 789: aiModelPath points to the location of the TotalSegmentator model.
 The data input folder (labeled as "spine_data" in the below example) must have the following tree structure:
 
 
-spine_data/
-├─ Patient1/
-│  ├─ CT/
-│  │  ├─ CT.nrrd
-│  ├─ DOSE/
-│  │  ├─ DOSE.nrrd
-│  ├─ RT Plan Data.txt
-├─ Patient2/
-├─ Patient3/
-├─ Patient4/
-├─ vert_volume_statistics.csv
-
+.
+└── src/
+    ├── assets/           # Images, fonts and more
+    │   ├── hero.png
+    │   └── logo.png
+    ├── modules/
+    │   ├── feature-a/    # Each feature is a module
+    │   │   └── index.ts  # Some code
+    │   └── feature-b/
+    │       └── index.ts
+    ├── App.test.tsx
+    └── App.ts
 
 The DL-SpiQA workflow will process any arbitrary number of spine RT data within the same batch. If a single patient has two or more associated CTs, they must be separated into two different folders with different patient names.
 The text file for each patient, "RT Plan Data.txt", must include the RT plan label (or any indication of the targeted vertebral levels) as well as the prescription dose.
