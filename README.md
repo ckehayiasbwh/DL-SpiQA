@@ -19,12 +19,19 @@ The data input folder (labeled as "spine_data" in the below example) must have t
 
 spine_data
 ├─ Patient1
+
 │  ├─ CT
+
 │  ├─ DOSE
+
 │  ├─ RT Plan Data.txt
+
 ├─ Patient2
+
 ├─ Patient3
+
 ├─ Patient4
+
 ├─ vert_volume_statistics.csv
 
 
