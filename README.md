@@ -20,7 +20,11 @@ The data input folder (labeled as "spine_data" in the below example) must have t
 spine_data
 |- Patient1
 |  |- CT
+|  |  |- CT.nrrd
+|  |
 |  |- DOSE
+|  |  |- DOSE.nrrd
+|  |
 |  |- RT Plan Data.txt
 |- Patient2
 |- Patient3
